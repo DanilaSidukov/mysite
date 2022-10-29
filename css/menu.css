@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+}
+.menu{
+    background-image: url(../img/menu_bg.png);
+    background-position:left;
+    background-repeat: no-repeat;
+    position:absolute;
+    display:block;
+    width: 100%;
+    height: 100vh;
+    background-size:contain;
+    background-color: black;
+    padding-right: 0;
+    padding-left: 0;
+    background-position-x: left;
+}
+.f_header{
+    color: #FACE8D;
+    font-family: 'Qimaila Script', sans-serif;
+    font-size: 80px;
+    position:absolute;
+    text-align: left;
+    top: 220px;
+    left: center;
+    padding-left: 300px;
+}
+.m_header{
+    color: #ffffff;
+    font-family: 'Chillax', sans-serif;
+    font-size: 90px;
+    position: absolute;
+    text-align: left;
+    top: 300px;
+    left: center;
+    padding-left: 150px;
+}
+nav {
+    background-color: #ffffff;
+    position: absolute;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 15px;
+    padding-right: 5px;
+    border-radius: 45px;
+    margin-top: 150px;
+    top: 650px;
+    left: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    background-size: cover;
+    font-family: 'Chillax', sans-serif;
+    cursor: pointer;
+}
+
+nav .animation {
+    position:absolute;
+	height: 50px;
+    top: 10px;
+	z-index: 0;
+    background-position:center;
+	border-radius: 35px;
+    transition: all .5s ease 0s;
+    margin-left: 5px;
+}
+
+nav a:nth-child(1)::before:hover {
+	width: 120px;
+    color: #ffffff;
+}
+nav a:nth-child(1)::after{
+	width: 120px;
+    color: #000000;
+}
+nav .start-menu, a:nth-child(1):hover~.animation {
+	width: 110px;
+	left: 5px;
+    background-color:  #7d7d7d;
+}
+nav a:nth-child(2) {
+	width: 120px;
+}
+nav a:nth-child(2):hover~.animation {
+	width: 120px;
+	left: 123px;
+    background-color: #484848;
+}
+nav a:nth-child(3) {
+	width: 100px;
+}
+nav a:nth-child(3):hover~.animation {
+	width: 105px;
+	left: 263px;
+    background-color: #343333;
+}
+nav a:nth-child(4) {
+	width: 160px;
+}
+nav a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 400px;
+    background-color: #121212;
+}
+
+.timeline{
+    width: 15px;
+    height: 15px;
+    float: bottom;
+    margin-right: 16px;
+    padding-top: 5px;
+}
+nav a:hover img{
+    -webkit-filter:invert(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+}
+
+a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px;
+        
+}
+a:hover {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.menu li{
+    position: absolute;
+    left: 60%;
+    top: 15px;
+    list-style-type: none;
+}
+.menu li a{
+    color: #ffffff;
+    padding: 20px;
+    font-family: 'Chillax', sans-serif;
+    font-size: 15px;
+}
+.menu li a:hover{
+    color: #FACE8D;
+}
+
+.eat div{
+    position:absolute;
+    top: 100px;
+    left: 53%;
+}
+
+.eat div h1{
+    color: #FACE8D;
+    font-size: 45px;
+    font-family: 'Qimaila Script', sans-serif;
+}
+
+.eat div a{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: 'Chillax', sans-serif;
+    margin-left: 120px;
+}
+.eat div a:nth-child(3){
+    font-size: 15px;
+    margin-right: 150px;
+    font-family: 'Chillax', sans-serif;
+    font-weight:1;
+}
+.eat div a:nth-child(5){
+    font-size: 15px;
+    margin-right: 150px;
+    font-family: 'Chillax', sans-serif;
+    font-weight:1;
+}
+/* aa */
