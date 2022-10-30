@@ -169,16 +169,22 @@ a:hover {
     font-family: 'Chillax', sans-serif;
     margin-left: 170px;
 }
-/* .first_yelow{
-    background-color: aqua;
-    background-position: left;
-    display: inline-block;
-    position: absolute;
-    top: 200px;
-    right: 500px;
-    left: 200px;
-    width: 400px;
-    height: 100px;
-} */
+.eat div a:nth-child(2):hover{
+    color: #FACE8D;
+}
+.eat div a:nth-child(1):hover{
+    color: #FACE8D;
+}
+.eat div a:nth-child(6):hover{
+    color: #FACE8D;
+}
+.eat div a:nth-child(7):hover{
+    color: #FACE8D;
+}
+.eat div a:nth-child(5):hover{
+    color: #FACE8D;
+}
+.eat div a:nth-child(4):hover{
+    color: #FACE8D;
+}
 
-/* aa */
